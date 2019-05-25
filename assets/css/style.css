@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    text-align: center
+}   
+
+body {
+    margin: 0 auto 0 auto;
+    width: 960px;
+    background-image: url(../images/website_background_image.png);
+
+ 
+}
+
+aside {
+    background: #4aaaa5;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    color: white;
+    text-align: center;
+
+}
+
+nav {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    text-align: right;
+}
+
+#nav {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+header {
+    position: relative;
+    height: 40px;
+    padding: 50px;
+    background: white:
+}
+
+h2 {
+    text-align: left;
+}
+
+.gallery {
+    Display: grid;
+    grid-template-columns: (3, 2fr);
+
+}
+
+.wrapper {
+    background-color: #cccccc;
+}
+
+footer {
+    background-color: #666666;
+}
